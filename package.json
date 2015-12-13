@@ -1,0 +1,25 @@
+{
+  "name": "epsg-to-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "convert an epsg code to a proj string",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "epsg",
+    "proj",
+    "geo",
+    "gis",
+    "coordinate"
+  ],
+  "author": "substack",
+  "license": "BSD",
+  "devDependencies": {
+    "esri-proj-codes": "^1.0.0",
+    "gdal": "^0.8.0",
+    "proj4": "^2.3.12",
+    "tape": "^4.2.2",
+    "xtend": "^4.0.1"
+  }
+}
