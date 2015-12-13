@@ -1,7 +1,10 @@
 {
   "name": "epsg-to-proj",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.json",
+  "bin": {
+    "epsg-to-proj": "bin/cmd.js"
+  },
   "description": "convert an epsg code to a proj string",
   "scripts": {
     "test": "tape test/*.js"

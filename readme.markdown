@@ -31,6 +31,12 @@ output:
 [ -155.62757614534797, 59.781490186078884 ]
 ```
 
+## command
+
+```
+$ epsg-to-proj 32605
+```
+
 # api
 
 ```
@@ -40,6 +46,12 @@ var epsg = require('epsg-to-proj')
 ## epsg[code]
 
 Look up the proj string for an epsg `code`.
+
+# usage
+
+```
+usage: epsg-to-proj CODE
+```
 
 # install
 
